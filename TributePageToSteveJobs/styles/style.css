@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0px auto;
 }
 html {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
@@ -8,6 +9,7 @@ html {
 section {
   /* background-color: rgb(233, 233, 233); */
   background-color: white;
+  margin-top: 40px;
   width: 1200px;
   align-items: center;
   justify-content: center;
@@ -16,15 +18,43 @@ section {
   text-align: center;
 }
 
-.left-containt-header {
-  text-align: center;
-  font-size: 40px;
+.main-header img {
+  width: 1200px;
 }
-.right-containt-header {
+.main-header p {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px 0px;
+}
+
+.left-containt-header {
+  font-size: 36px;
   text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 20px 0px;
+}
+
+.right-containt-header {
+  /* margin-top: -280px; */
+  font-size: 24px;
+  text-align: center;
+}
+.right-containt-header h1 {
+  font-size: 36px;
+  margin: 15px 0px;
 }
 .right-containt-header img {
-  width: 400px;
+  border: 1px rgb(214, 214, 214) solid;
+  width: 365px;
+}
+
+.right-containt-header p {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0px 0px 20px;
 }
 
 .row {
@@ -35,6 +65,7 @@ section {
 
 table {
   border-collapse: collapse;
+  line-height: 25px;
 }
 
 /* table,
@@ -84,8 +115,16 @@ td {
 }
 
 footer {
-  margin: 40px;
+  font-size: 24px;
+  margin: 40px auto;
   padding: 40px;
   background-color: rgb(240, 240, 240);
   text-align: center;
+}
+
+footer p {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0px 90px 20px;
 }
