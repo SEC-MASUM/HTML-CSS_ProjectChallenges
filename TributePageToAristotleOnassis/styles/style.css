@@ -1,0 +1,66 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+section {
+  background-color: rgb(240, 240, 240);
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+header h3 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+header p {
+  border: 1px rgb(210, 210, 210) solid;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.thumbnail {
+  border: 1px rgb(210, 210, 210) solid;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.thumbnail img {
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.thumbnail p {
+  background-color: rgb(210, 210, 210);
+  margin: 0px 5px 5px 5px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: teal;
+}
